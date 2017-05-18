@@ -11,7 +11,7 @@ export default class Survey extends React.Component {
     super(props);
 
     this.state = {
-      rating: 0
+      rating: 0,
     };
 
     this.increaseRating = this.increaseRating.bind(this);
